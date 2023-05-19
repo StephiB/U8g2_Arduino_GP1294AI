@@ -4,6 +4,13 @@
 
 U8glib V2 library for Arduino
 
+Constuctor list for GP1294AI:
+
+U8G2_GP1294AI_256X48_1_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
+U8G2_GP1294AI_256X48_2_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
+U8G2_GP1294AI_256X48_F_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
+
+
 Description: https://github.com/olikraus/u8g2/wiki
 
 Issue Tracker: https://github.com/olikraus/u8g2/issues
