@@ -1,0 +1,3 @@
+//U8G2_GP1294AI_256X48_1_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
+//U8G2_GP1294AI_256X48_2_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
+//U8G2_GP1294AI_256X48_F_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 8);
