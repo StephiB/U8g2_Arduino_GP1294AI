@@ -48,8 +48,8 @@ static const u8x8_display_info_t u8x8_gp1294ai_display_info = {
 	/* sda_setup_time_ns = */ 60,         /* tsu     */
 	/* sck_pulse_width_ns = */ 120,       /* tcyc/2  */
 	/* sck_clock_hz = */ 4000000UL,       /* MAX 4.16 MHz */
-	/* spi_mode = */ 0,                   /* active low, falling edge, LSBFIRST */
-	/* i2c_bus_clock_100kHz = */ 254,     /*         */
+	/* spi_mode = */ 3,                   /* active low, falling edge, LSBFIRST */
+	/* i2c_bus_clock_100kHz = */ 4,       /*         */
 	/* data_setup_time_ns = */ 60,        /* tsu     */
 	/* write_pulse_width_ns = */ 120,     /* tcyc/2  */
 	/* tile_width = */ 32,                /* 32*8=256 GRAM size */

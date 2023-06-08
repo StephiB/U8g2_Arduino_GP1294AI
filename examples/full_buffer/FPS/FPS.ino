@@ -482,8 +482,8 @@
 //U8G2_GU800_128X64_F_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 //U8G2_GU800_160X16_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 //U8G2_GU800_160X16_F_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
-
-
+U8G2_GP1294AI_256X48_F_3W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* reset=*/ 36);
+ const int Fil = 43;
 // End of constructor list
 
 typedef u8g2_uint_t u8g_uint_t;
@@ -626,6 +626,8 @@ void show_result(const char *s, uint16_t fps) {
 }
 
 void setup(void) {
+   pinMode(Fil, OUTPUT);
+ digitalWrite(Fil, HIGH);
   /* U8g2 Project: SSD1306 Test Board */
   //pinMode(10, OUTPUT);
   //pinMode(9, OUTPUT);
